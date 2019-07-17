@@ -1,0 +1,148 @@
+* {
+  box-sizing: content-box;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-image: url('https://ai-qa.avlr.sh/assets/images/hands-large.jpg');
+  font-family: "source-sans-pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  background-repeat: no-repeat;
+}
+.header {
+  background-color: rgb(245, 246, 250);
+}
+.header img {
+  padding: 0.6rem 0;
+  height: 1.4rem;
+}
+.main {
+  margin-left: 5rem;
+}
+.formcontainer {
+  border: 1px solid white;
+  margin: 3vh;
+  padding: 1.2rem;
+  position: relative;
+  background-color:white;
+  width: 410px;
+}
+.formcontainer > p {
+  font-size: 0.8571rem;
+  color: #343a40;
+}h2 {
+  color: #919195;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.formGroup {
+  margin-bottom: 4px;
+}
+label {
+  font-size: 0.7rem;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #79797c;
+  letter-spacing: 0.6px;
+}
+label[for=inputEmail]::after, label[for=inputPassword]::after {
+  content: '*';
+  color: #ff6600;
+  margin-left: 0.07143rem;
+  position: absolute;
+  line-height: 1;
+  font-size: 1.2rem;
+}
+input[type=text],input[type=password] {
+  width: 93%;
+  padding-left: 0.8571rem;
+  border-radius: 0 !important;
+  background-color: rgb(232, 240, 254);
+  height: 18px;
+  padding: 0.57143rem;
+  font-size: 0.92857rem;
+}
+.password {
+  position: relative;
+}
+.show {
+  position: absolute;
+  top: 2.35rem;
+  right: 1.6rem;
+  font-size: 0.85rem;
+  color: #027fad;
+  cursor: pointer;
+  font-weight: 400;
+}
+.formCheck {
+  color: #79797c !important; 
+}
+.forgetPassword {
+  overflow: hidden;
+}
+.forgotPassword {
+  font-size: 0.8571rem;
+  float: right;
+}
+.forgotPassword:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+.btn {
+  background-color: rgb(2, 139, 190);
+  border: rgb(2, 139, 190);
+  text-decoration: none;
+  width: 52px;
+}
+.btn:hover {
+  background-color: rgb(3, 147, 199);
+}
+.page-footer {
+  position: static;
+  bottom: 0;
+  background-color: rgb(245, 246, 250);
+}
+a {
+  color: #027fad;
+  font-size: 20px;
+  padding-left: 0.3125rem;
+  font-weight: 400;
+  font-family: "source-sans-pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+a:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+.termsNcondtion {
+  font-size: 1rem;
+}
+svg {
+  padding-right: 0.5125rem
+}
+footer {
+  background-color: rgb(245, 246, 250);
+  position: fixed;
+  bottom: 0;
+  width: 100%
+}
+.left-piped::before {
+  content: '';
+  background: #cccccc;
+  position: absolute;
+  height: 33%;
+  bottom: 53%;
+  left: 251px;
+  width: 0.07143rem;
+}
+.copyrights {
+  font-family: "source-sans-pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #919195;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.termsNcondtion {
+  padding-left: 20px;
+  font-size: 15px;
+}
